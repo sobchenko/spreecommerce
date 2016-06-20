@@ -11,5 +11,10 @@
 /log/*
 !/log/.keep
 /tmp
+<<<<<<< HEAD
 /.idea/*
 /vendor/*
+=======
+.idea/*
+config/deploy.rb
+>>>>>>> ef08f2e17403c9698ce16e36e5b1ecf4c5f28052
