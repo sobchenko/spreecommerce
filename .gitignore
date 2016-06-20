@@ -13,5 +13,4 @@
 /tmp
 /vendor/*
 /.idea/*
-config/deploy.rb
-
+/config/deploy.rb
