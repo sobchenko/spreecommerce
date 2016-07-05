@@ -34,7 +34,7 @@ case "$1" in
         bundle exec puma -C $PUMA_CONFIG_FILE
       else
         echo "socket"
-        bundle exec puma --daemon --bind unix://$PUMA_SOCKET --pidfile $PUMA_PID_FILE
+        bundle exec puma --daemon --bind unix:$PUMA_SOCKET --pidfile $PUMA_PID_FILE
       fi
 
     echo "done"
