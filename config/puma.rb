@@ -6,4 +6,5 @@ stdout_redirect "/var/www/budmag/shared/tmp/log/stdout", "/var/www/budmag/shared
 threads 2, 16
 workers 2
 bind "unix:///var/www/budmag/shared/tmp/sockets/puma.sock"
+activate_control_app
 daemonize true
